@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-primary {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .bg-primary {
+    background-color: #ffffff;
+  }
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+body {
+  @apply font-primary bg-primary text-white leading-loose;
+}
+
+.h1 {
+  @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+}
+
+.h2 {
+  @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+}
+
+.h3 {
+  @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+.text-outline-hover {
+  -webkit-text-stroke: 1px #ff0844;
+}
