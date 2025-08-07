@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Griyadigitalkreasi-io/static/css/main.95432296.css",
-    "main.js": "/Griyadigitalkreasi-io/static/js/main.68f27720.js",
+    "main.js": "/Griyadigitalkreasi-io/static/js/main.37704c4d.js",
     "static/media/1.jpg": "/Griyadigitalkreasi-io/static/media/1.e661a28452b0b1b2880e.jpg",
     "static/media/Poster Jasa Service.png": "/Griyadigitalkreasi-io/static/media/Poster Jasa Service.c627fcd7c97f3bcd1ce4.png",
     "static/media/Service Pc.png": "/Griyadigitalkreasi-io/static/media/Service Pc.c6c2e1b54e81c9c69b09.png",
@@ -56,10 +56,10 @@
     "static/media/design brand.jpg": "/Griyadigitalkreasi-io/static/media/design brand.5c449cb67f8cc901171b.jpg",
     "index.html": "/Griyadigitalkreasi-io/index.html",
     "main.95432296.css.map": "/Griyadigitalkreasi-io/static/css/main.95432296.css.map",
-    "main.68f27720.js.map": "/Griyadigitalkreasi-io/static/js/main.68f27720.js.map"
+    "main.37704c4d.js.map": "/Griyadigitalkreasi-io/static/js/main.37704c4d.js.map"
   },
   "entrypoints": [
     "static/css/main.95432296.css",
-    "static/js/main.68f27720.js"
+    "static/js/main.37704c4d.js"
   ]
 }
