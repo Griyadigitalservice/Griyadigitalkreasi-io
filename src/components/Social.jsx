@@ -7,7 +7,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 const socials = [
   {
     icon: <FaInstagram />,
-    path: "https://www.instagram.com/griyadigital_kreasi/?hl=en",
+    path: "https://www.instagram.com/griyadigital_service?igsh=bnY2Ymwxam93cWU2",
   },
   {
     icon: <FaCartArrowDown />,
