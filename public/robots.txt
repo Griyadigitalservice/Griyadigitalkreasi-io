@@ -1,3 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://griyadigitalservice.github.io/Griyadigitalkreasi-io/sitemap.xml
