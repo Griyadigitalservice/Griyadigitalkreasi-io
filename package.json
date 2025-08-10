@@ -22,6 +22,7 @@
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
+    "react-snap": "^1.23.0",
     "swiper": "^11.1.15",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
@@ -29,11 +30,28 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "reactSnap": {
+    "inlineCss": true,
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
+    "include": [
+      "/",
+      "/services",
+      "/product",
+      "/contact",
+      "/itshop",
+      "/itservice",
+      "/netservice",
+      "/digitalmarketing"
+    ]
   },
   "eslintConfig": {
     "extends": [
